@@ -1,6 +1,8 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
 *{
     box-sizing: border-box;
+    font-family: 'Quicksand';
     margin: 0 auto;
 }
 header {
@@ -81,7 +83,11 @@ form {
     background-color: #3882f6;
     border-radius: 10px;
     color: #e5e7eb;
+    display: flex;
     padding: 20px;
+    width: 50vw;
+}
+form article {
     width: 50vw;
 }
 form button {
@@ -89,5 +95,19 @@ form button {
     border-radius: 30px;
     box-shadow: 2px 2px 2px #1f2937;
     color: #fff;
-    padding: 5px;
+    height: 5vh;
+    position: relative;
+    top: 30px;
+    width: 12vw;
+}
+form button:hover {
+    background: purple;
+    color: peachpuff;
+}
+footer {
+    background-color: #1f2937;
+    color: #f9faf8;
+    margin-top: 50px;
+    padding: 20px;
+    text-align: center;
 }
